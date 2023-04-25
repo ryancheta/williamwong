@@ -1,0 +1,17 @@
+.sectionContainer {
+  // max-width: 1273px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.25rem;
+  }
+  @media (min-width: 1024px) {
+    margin-bottom: 4rem;
+  }
+}
+
+.sectionContent {
+  margin-bottom: 2rem;
+}

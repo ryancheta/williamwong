@@ -1,0 +1,49 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.iconContainer {
+  opacity: 1;
+  width: calc(100% - 2rem);
+  line-height: 1;
+  max-width: 360px;
+
+  @media (min-width: 1024px) {
+    // opacity: 0;
+    width: auto;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  @media (hover: hover) {
+    img:hover {
+      transform: scale(1.0125);
+      filter: saturate(0);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .iconContainer {
+    img {
+      width: 100%;
+      height: auto;
+      // max-width: 300px;
+    }
+  }
+}
+
+.fadeIn {
+  animation: fadeInUp 1.25s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+  // animation-delay: 420ms;
+}

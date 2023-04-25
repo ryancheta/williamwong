@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="193px" viewBox="0 0 128 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>document-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="14" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-455.000000, -163.000000)">
+            <g id="document-icon" transform="translate(455.489095, 163.500000)">
+                <g id="Group-2">
+                    <g id="Group" transform="translate(23.510905, 55.500000)" stroke="#00A3FF" stroke-linecap="round" stroke-width="14">
+                        <path d="M0.444444444,0.5 L79.5555556,0.5" id="Line-Copy-9"></path>
+                        <path d="M0.444444444,25.5 L79.5555556,25.5" id="Line-Copy-8"></path>
+                        <path d="M0.444444444,51 L79.5555556,51" id="Line-Copy-7"></path>
+                        <path d="M0.444444444,76 L79.5555556,76" id="Line-Copy-6"></path>
+                        <path d="M0.444444444,101.5 L79.5555556,101.5" id="Line-Copy-5"></path>
+                    </g>
+                    <path d="" id="Path" stroke="#00A3FF"></path>
+                    <path d="M124.34949,34.3309593 L88.2733192,3.00631059 L10.4606247,3.44401759 C6.6100605,3.46567754 3.5,6.59328176 3.5,10.4439068 L3.5,182.5 C3.5,186.365993 6.63400675,189.5 10.5,189.5 L117.34949,189.5 C121.215483,189.5 124.34949,186.365993 124.34949,182.5 L124.34949,34.3309593 Z" id="Path-2" stroke="#00A3FF" stroke-width="14"></path>
+                    <polyline id="Path-3" stroke="#00A3FF" stroke-width="6" points="88.3494897 1.85152746 88.3494897 35.8515275 124.34949 35.8515275"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

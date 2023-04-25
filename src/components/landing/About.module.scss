@@ -1,0 +1,70 @@
+.sectionContainer {
+  background: url('http://williamwong.info/dsnimg/home_about.png') center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  text-align: center;
+  max-width: 50rem;
+  margin-inline: auto;
+  padding: 4rem 1.5rem;
+  height: auto;
+  height: calc(100vh - 8rem);
+
+  @media (min-width: 1024px) {
+    padding: 10rem 0;
+    padding: 4rem 1.5rem;
+    height: calc(100vh - 8rem);
+  }
+  > :first-child {
+    height: 104px;
+    width: 104px;
+    @media (min-width: 430px) {
+      height: 132px;
+      width: 132px;
+    }
+    @media (min-width: 1024px) {
+      height: auto;
+      width: auto;
+    }
+    margin-bottom: 3.5rem;
+  }
+  h3 {
+    margin-bottom: 1rem;
+  }
+}
+
+.connect {
+  gap: 3.25rem;
+  // display: none;
+  > * h4 {
+    margin-top: 0.75rem;
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  &Items {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+    p {
+      font-weight: bold;
+      margin-top: 1rem;
+      color: dodgerblue;
+    }
+  }
+  &Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

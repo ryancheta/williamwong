@@ -1,0 +1,13 @@
+.link {
+  display: flex;
+  align-items: center;
+
+  & .wordMark {
+    visibility: hidden;
+  }
+  @media (min-width: 1025px) {
+    & .wordMark {
+      visibility: visible;
+    }
+  }
+}
